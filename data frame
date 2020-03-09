@@ -1,0 +1,12 @@
+import pandas as pd
+cr=pd.read_csv("E:/Mnadar/fwddocumentsfornewbatchdsp16/CreditRisk.csv")
+cr.head()
+cr.tail()
+cr.describe()
+cr.describe(include="all")
+cr.shape
+type(cr)
+b1=cr.ApplicantIncome
+b1
+b2=cr.ApplicantIncome.mean()
+b2
